@@ -8,38 +8,40 @@ A simple Windows batch script that uses [ImageMagick](https://imagemagick.org/) 
 
 2. **Install** [ImageMagick](https://github.com/ImageMagick/ImageMagick) from the official GitHub repository.
 
-   Verify the installation by opening Command Prompt and running:
+Verify the installation by opening Command Prompt and running:
 
-   ```bat
-   magick -version
-   ```
+```bat
+magick -version
+```
 
 3. **Place** all your `.jpg` or `.jpeg` images in the _same directory_ as `PrinterMagick.bat`.
 
-   ```text
-   Directory/
-   ├── PrinterMagick.bat
-   ├── image1.jpg
-   ├── image2.jpg
-   └── image3.jpg
-   ```
+```text
+Directory/
+├── PrinterMagick.bat
+├── image1.jpg
+├── image2.jpg
+└── image3.jpg
+```
 
 4. **Run** the script by double-clicking `PrinterMagick.bat`
 
 An output folder will be created in the **same directory** as `PrinterMagick.bat` and the processed images along with the PDF will be placed there:
 
-   Directory/
-   ├── PrinterMagick.bat
-   ├── page01.jpg
-   ├── page02.jpg
-   ├── page03.jpg
-   └── output/
-       ├── page01.jpg
-       ├── page02.jpg
-       ├── page03.jpg
-       └── scans.pdf
+```text
+Directory/
+├── PrinterMagick.bat
+├── page01.jpg
+├── page02.jpg
+├── page03.jpg
+└── output/
+    ├── page01.jpg
+    ├── page02.jpg
+    ├── page03.jpg
+    └── scans.pdf
+```
 
-   Your original images are left untouched.
+Your original images are left untouched.
 
 ## Before and After
 
