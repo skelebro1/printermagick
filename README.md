@@ -4,9 +4,9 @@ A simple Windows batch script that uses [ImageMagick](https://imagemagick.org/) 
 
 ## Quick Start
 
-1. **Download** [PrinterMagick.bat](https://github.com/skelebro1/printermagick/raw/refs/heads/main/PrinterMagick.bat)
+1. **Download or Save** [PrinterMagick.bat](https://github.com/skelebro1/printermagick/raw/refs/heads/main/PrinterMagick.bat)
 
-2. **Install** [ImageMagick](https://github.com/ImageMagick/ImageMagick) from the official GitHub repository.
+2. **Install** [ImageMagick](https://imagemagick.org/command-line-tools) from their official website.
 
 Verify the installation by opening Command Prompt and running:
 
